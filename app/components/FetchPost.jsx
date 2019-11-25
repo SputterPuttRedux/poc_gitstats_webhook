@@ -1,4 +1,9 @@
-const React = require('react')
-const { useState, useEffect } = require('react');
+import React from "react";
 
-const FetchPost = function() {};
+const FetchPost = ({ request_body }) => (
+  <div>
+    <p>{request_body}</p>
+  </div>
+);
+
+export default FetchPost;

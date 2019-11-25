@@ -13,7 +13,8 @@
     "include": [
       "\\.js$",
       "\\.jsx$",
-      "\\.json"
+      "\\.json",
+      "\\.html"
     ]
   },
   "throttle": 100
