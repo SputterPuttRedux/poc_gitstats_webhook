@@ -11,14 +11,19 @@
     "start": "webpack && node server.js"
   },
   "dependencies": {
+    "babel": "latest",
+    "@babel/core": "latest",
+    "babel-loader": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
     "express": "^4.16.4",
-    "jsx-loader": "^0.13.2",
+    "webpack": "latest",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0",
-    "node-persist": "^3.0.5",
-    "body-parser": "^1.19.0"
+    "webpack-cli": "latest",
+    "file-system": "^2.2.2",
+    "winston": "^3.2.1",
+    "express-winston": "^4.0.1"
   },
   "engines": {
     "node": "8.x"

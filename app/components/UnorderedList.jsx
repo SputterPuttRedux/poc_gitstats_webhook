@@ -1,18 +1,13 @@
-const React = require('react');
+import React from 'react';
 
-/* takes an array prop 'items' and returns a <ul> element
-=======
-/* takes an array prop 'items' and returns a <ul> element
->>>>>>> 2d5746ea6447da40d219733fdcd7ea044d1148c5
+/* takes an array prop 'items' and returns a <ul> element 
    with each item as <li> elements */
-const UnorderedList = function({ items }) {
-  return (
-    <ul>
-      {items.map(function(item, i) {
-        return <li key={i}>{item}</li>;
-      })}
-    </ul>
-  );
-}
+const UnorderedList = ({ items }) => (
+  <ul>
+    {items.map(function(item, i) {
+      return <li key={i}>{item}</li>;
+    })}
+  </ul>
+)
 
-module.exports = UnorderedList;
+export default UnorderedList;

@@ -1,10 +1,9 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from "react";
+import ReactDOM from "react-dom";
 
 /* Import Components */
-const HelloWorld = require('./components/HelloWorld');
-const StateHook = require('./components/StateHook');
+import HelloWorld from "./components/HelloWorld";
+import ShowPost from "./components/ShowPost";
 
-ReactDOM.render(<HelloWorld/>, document.getElementById('main'));
-
-ReactDOM.render(<StateHook/>, document.getElementById('state-hook'));
+ReactDOM.render(<HelloWorld />, document.getElementById("main"));
+ReactDOM.render(<ShowPost />, document.getElementById("show-post"));
