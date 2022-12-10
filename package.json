@@ -16,7 +16,7 @@
     "babel-loader": "latest",
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "webpack": "latest",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
